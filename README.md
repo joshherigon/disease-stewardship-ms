@@ -1,4 +1,4 @@
-# Supplemental code for: "Effect of reductions in observed disease and improved antibiotic stewardship on anti-biotic prescribing in Massachusetts between 2011 and 2015"
+# Supplemental code for: "Effect of reductions in observed disease and improved antibiotic stewardship on antibiotic prescribing in Massachusetts between 2011 and 2015"
 ## Stephen M. Kissler, R. Monina Klevens, Michael L. Barnett, Yonatan H. Grad
 
 The primary script in this repository is 'disease-stewardship.R'. That script calls 'icd.R' and pulls in the namcs**.csv files. It generates the figures and table in the main text. 
