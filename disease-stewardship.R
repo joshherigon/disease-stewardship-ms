@@ -40,7 +40,7 @@ members_red_overall <- members_red %>%
 	group_by(DT_MONTH, DT_YEAR) %>%
 	summarise(n_memb=sum(n_memb)) 
 
-source('processnamcs.R')
+read.csv('namcs.csv')
 source('icd.R') 
 
 # =============================================================================
