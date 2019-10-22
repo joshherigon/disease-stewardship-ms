@@ -40,7 +40,36 @@ members_red_overall <- members_red %>%
 	group_by(DT_MONTH, DT_YEAR) %>%
 	summarise(n_memb=sum(n_memb)) 
 
-read.csv('namcs.csv')
+namcs02 <- read.csv('namcs02.csv')
+namcs03 <- read.csv('namcs03.csv')
+namcs04 <- read.csv('namcs04.csv')
+namcs05 <- read.csv('namcs05.csv')
+namcs06 <- read.csv('namcs06.csv')
+namcs07 <- read.csv('namcs07.csv')
+namcs08 <- read.csv('namcs08.csv')
+namcs09 <- read.csv('namcs09.csv')
+namcs10 <- read.csv('namcs10.csv')
+namcs11 <- read.csv('namcs11.csv')
+namcs12 <- read.csv('namcs12.csv')
+namcs13 <- read.csv('namcs13.csv')
+namcs14 <- read.csv('namcs14.csv')
+namcs15 <- read.csv('namcs15.csv')
+
+namcs <- rbind(namcs02,
+	namcs03,
+	namcs04,
+	namcs05,
+	namcs06,
+	namcs07,
+	namcs08,
+	namcs09,
+	namcs10,
+	namcs11,
+	namcs12,
+	namcs13,
+	namcs14,
+	namcs15)
+
 source('icd.R') 
 
 # =============================================================================
